@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>image/kaishitouxi_button.jpg</file>
         <file>image/com_sj_bk.png</file>
         <file>image/cs_gs.png</file>
         <file>image/cs_txy.png</file>
@@ -29,5 +28,33 @@
         <file>qml/p4_mnz.qml</file>
         <file>qml/p5_tx.qml</file>
         <file>qml/p6_zljs.qml</file>
+        <file>image/cs_gs_qd_bt.png</file>
+        <file>image/cs_gs_qx_bt.png</file>
+        <file>image/cs_txy_qd_bt.png</file>
+        <file>image/cs_txy_qx_bt.png</file>
+        <file>image/cs_yl_qd_bt.png</file>
+        <file>image/cs_yl_qx_bt.png</file>
+        <file>image/p2_abdj_gs_bt.png</file>
+        <file>image/p2_abdj_next_bt.png</file>
+        <file>image/p2_abdj_txy_bt.png</file>
+        <file>image/p2_abdj_yl_bt.png</file>
+        <file>image/p3_mnp_gs_bt.png</file>
+        <file>image/p3_mnp_next_bt.png</file>
+        <file>image/p3_mnp_tk_mntxz_bt.png</file>
+        <file>image/p3_mnp_tk_qx_bt.png</file>
+        <file>image/p3_mnp_txy_bt.png</file>
+        <file>image/p3_mnp_yl_bt.png</file>
+        <file>image/p4_mnz_gs_bt.png</file>
+        <file>image/p4_mnz_next_bt.png</file>
+        <file>image/p4_mnz_tk_kstx_bt.png</file>
+        <file>image/p4_mnz_tk_qx_bt.png</file>
+        <file>image/p4_mnz_txy_bt.png</file>
+        <file>image/p4_mnz_yl_bt.png</file>
+        <file>image/p5_tx_gs_bt.png</file>
+        <file>image/p5_tx_kstx_bt.png</file>
+        <file>image/p5_tx_txy_bt.png</file>
+        <file>image/p5_tx_yl_bt.png</file>
+        <file>image/p6_zljs_hx_bt.png</file>
+        <file>image/p6_zljs_zjzl_bt.png</file>
     </qresource>
 </RCC>

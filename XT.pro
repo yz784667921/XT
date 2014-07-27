@@ -16,8 +16,8 @@ HEADERS += \
     fpga.h
 
 FORMS   +=
-INCLUDEPATH +=/mnt/hgfs/shared/hwlib/include
-DEPENDPATH +=/mnt/hgfs/shared/hwlib/include
+INCLUDEPATH +=/mnt/hgfs/shared/my20140727/XT/hwlib/include
+DEPENDPATH +=/mnt/hgfs/shared/my20140727/XT/hwlib/include
 
 OTHER_FILES += \
     qml/p0_kjh.qml \
@@ -29,7 +29,8 @@ OTHER_FILES += \
     qml/p5_tx.qml \
     qml/p3_mnp_tk.qml \
     qml/p4_mnz_tk.qml \
-    qml/p6_zljs.qml
+    qml/p6_zljs.qml \
+    qml/1.qml
 
 RESOURCES += \
     source.qrc
