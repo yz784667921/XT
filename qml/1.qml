@@ -7,5 +7,7 @@ Rectangle {
                   
     height: 62
 
-    color: red
+    color: "green"//yz
+    
+    yz
 }
