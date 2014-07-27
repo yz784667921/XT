@@ -39,4 +39,34 @@ Item {
         }
     }
 
+
+    /*****************************************************************************************************************************************************************************
+    **
+    **next button area
+    **
+    *****************************************************************************************************************************************************************************/
+    Item{
+        id:p2_abdj_nextbutton_area_id
+        //x: 951; y: 650; width:71; height:83
+        x: 0.92871*parent.width; y: 0.846354*parent.height; width: 0.069336*parent.width; height: 0.108073*parent.height
+        opacity: p2_abdj_nextbutton_area_mousearea_id.containsMouse?0.0:1
+
+        Image{
+            id: p2_abdj_nextbutton_area_image_id
+            anchors.fill: parent
+            source: "../image/p2_abdj_next_bt.png";
+        }
+
+        //next mousearea
+        MouseArea{
+            id:p2_abdj_nextbutton_area_mousearea_id
+            anchors.fill: parent
+            hoverEnabled: true
+            onClicked: {
+                var component=Qt.createComponent("qrc:/qml/p3_mnp.qml").createObject(p0_kjh_container_id)
+                p2_abdj_container_id.destroy();
+            }
+        }
+    }
+
 }

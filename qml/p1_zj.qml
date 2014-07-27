@@ -48,7 +48,7 @@ Item {
     *****************************************************************************************************************************************************************************/
     Item{
         id:p1_zj_nextbutton_area_id
-        x: 943; y: 632; width:81; height:100
+        x: 941; y: 632; width:81; height:100
         //x: 0.078*parent.width; y: 0.28*parent.height; width: 0.8457*parent.width; height: 0.0976*parent.height
         //opacity: 0.5
         //color: "yellow"
