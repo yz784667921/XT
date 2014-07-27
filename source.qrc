@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/kaishitouxi_button.jpg</file>
+        <file>image/com_sj_bk.png</file>
+        <file>image/cs_gs.png</file>
+        <file>image/cs_txy.png</file>
+        <file>image/cs_yl.png</file>
+        <file>image/p0_kjh_cs_bt.gif</file>
+        <file>image/p0_kjh_insys_bt.jpg</file>
+        <file>image/p0_kjh.jpg</file>
+        <file>image/p1_zj_gou.png</file>
+        <file>image/p1_zj.jpg</file>
+        <file>image/p2_abdj.jpg</file>
+        <file>image/p3_mnp_tk.png</file>
+        <file>image/p3_mnp.jpg</file>
+        <file>image/p4_mnz_tk.png</file>
+        <file>image/p4_mnz.jpg</file>
+        <file>image/p5_tx.jpg</file>
+        <file>image/p6_zljs.png</file>
+        <file>qml/p0_kjh_cs.qml</file>
+        <file>qml/p0_kjh.qml</file>
+        <file>qml/p1_zj.qml</file>
+        <file>image/p1_zj_next_bt.png</file>
+        <file>qml/1.qml</file>
+        <file>qml/p2_abdj.qml</file>
+        <file>qml/p3_mnp_tk.qml</file>
+        <file>qml/p3_mnp.qml</file>
+        <file>qml/p4_mnz_tk.qml</file>
+        <file>qml/p4_mnz.qml</file>
+        <file>qml/p5_tx.qml</file>
+        <file>qml/p6_zljs.qml</file>
+    </qresource>
+</RCC>
