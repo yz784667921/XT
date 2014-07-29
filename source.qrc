@@ -56,5 +56,8 @@
         <file>image/p5_tx_yl_bt.png</file>
         <file>image/p6_zljs_hx_bt.png</file>
         <file>image/p6_zljs_zjzl_bt.png</file>
+        <file>qml/cs_txy.qml</file>
+        <file>qml/cs_gs.qml</file>
+        <file>qml/cs_yl.qml</file>
     </qresource>
 </RCC>
