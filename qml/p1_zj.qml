@@ -11,7 +11,7 @@ Item {
 
     //background pichture
     Image{
-        id: background_id
+        id: p1_zj_background_id
         x: 0; y: 0; width:parent.width; height:parent.height
         source: "../image/p1_zj.jpg"
     }
@@ -48,20 +48,17 @@ Item {
     *****************************************************************************************************************************************************************************/
     Item{
         id:p1_zj_nextbutton_area_id
-        x: 941; y: 632; width:81; height:100
-        //x: 0.078*parent.width; y: 0.28*parent.height; width: 0.8457*parent.width; height: 0.0976*parent.height
-        //opacity: 0.5
-        //color: "yellow"
-        //border.width:p1_zj_nextbutton_area_mousearea_id.containsMouse?3:0
-        //border.color: p1_zj_nextbutton_area_mousearea_id.containsMouse?"lightgreen":"white"
-        opacity: p1_zj_nextbutton_area_mousearea_id.containsMouse?0.0:1
+        x: 943
+        y: 634
+        //x: 941; y: 632; width:81; height:100
+        width: 0.0791016*parent.width; height: 0.1302083*parent.height
+        opacity: p1_zj_nextbutton_area_mousearea_id.containsMouse?0.1:1
+        enabled: false
 
         Image{
             id: p1_zj_nextbutton_area_image_id
             anchors.fill: parent
             source: "../image/p1_zj_next_bt.png";
-            width:p1_zj_nextbutton_area_mousearea_id.containsMouse?50:81
-            height:p1_zj_nextbutton_area_mousearea_id.containsMouse?60:100
         }
 
         //next mousearea    
@@ -71,10 +68,125 @@ Item {
             hoverEnabled: true
             onClicked: {
                 var component=Qt.createComponent("qrc:/qml/p2_abdj.qml").createObject(p0_kjh_container_id)
-                p1_zj_container_id.destroy();
+                //p1_zj_container_id.destroy();
+                p1_zj_container_id.enabled=false;
+                p1_zj_container_id.visible=false;
             }
         }
     }
+
+
+
+    /*****************************************************************************************************************************************************************************
+    **
+    **zijian gou area
+    **
+    *****************************************************************************************************************************************************************************/
+    Item{
+        id:p1_zj_gou_area_id
+        x: 8
+        y: 258
+        width:262; height:359
+
+        Column{
+            x:31; y:50
+            spacing: 9
+
+                Image{
+                    id: p1_zj_gou_image_id
+                    width: 42; height: 25;
+                    source: "../image/p1_zj_gou.png";
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id1
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id2
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id3
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id4
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id5
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id6
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id7
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+
+                Image {
+                    id: p1_zj_gou_image_id8
+                    width: 42
+                    height: 25
+                    source: "../image/p1_zj_gou.png"
+                    visible: false
+                }
+        }
+        //zijian  gou dingshi yici xian shi
+        Timer {
+            property int p1_zj_gou_tcount: 0
+                id: p1_zj_gou_timer_id
+                interval: 250; running: true; repeat: true
+                onTriggered: {
+                    switch(p1_zj_gou_tcount)
+                    {
+                        case 0:{p1_zj_gou_image_id.visible=true; p1_zj_gou_tcount++};break;
+                        case 1:{p1_zj_gou_image_id1.visible=true; p1_zj_gou_tcount++};break;
+                        case 2:{p1_zj_gou_image_id2.visible=true; p1_zj_gou_tcount++};break;
+                        case 3:{p1_zj_gou_image_id3.visible=true; p1_zj_gou_tcount++};break;
+                        case 4:{p1_zj_gou_image_id4.visible=true; p1_zj_gou_tcount++};break;
+                        case 5:{p1_zj_gou_image_id5.visible=true; p1_zj_gou_tcount++};break;
+                        case 6:{p1_zj_gou_image_id6.visible=true; p1_zj_gou_tcount++};break;
+                        case 7:{p1_zj_gou_image_id7.visible=true; p1_zj_gou_tcount++};break;
+                        case 8:{p1_zj_gou_image_id8.visible=true; p1_zj_gou_tcount++};break;
+                        default:{stop();p1_zj_nextbutton_area_id.enabled=true}
+                    }
+                }
+            }
+
+    }
+
 
 
 

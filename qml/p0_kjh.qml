@@ -43,7 +43,8 @@ Item {
             hoverEnabled: true
             onClicked: {
                 var component=Qt.createComponent("qrc:/qml/p0_kjh_cs.qml").createObject(p0_kjh_container_id)
-                p0_kjh_container_id.enabled=false
+                p0_kjh_csset_area_id.enabled=false
+                p0_kjh_insysbutton_area_id.enabled=false;
             }
             }
      }
@@ -77,6 +78,9 @@ Item {
             onClicked: {
                 var component=Qt.createComponent("qrc:/qml/p1_zj.qml").createObject(p0_kjh_container_id)
                 //p0_kjh_container_id.destroy();
+                //p0_kjh_container_id.enabled=false;
+                p0_kjh_insysbutton_area_id.enabled=false;
+                p0_kjh_csset_area_id.enabled=false;
             }
         }
     }
